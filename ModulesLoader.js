@@ -10,9 +10,9 @@ var ML = {
                         case 'SampleModule1':
                             this.objects[objectClassName] = require('./SampleModule1.js');
                             break;
-						case 'SampleModule2':
-							this.objects[objectClassName] = require('./SampleModule2.js');
-							break;
+			case 'SampleModule2':
+				this.objects[objectClassName] = require('./SampleModule2.js');
+				break;
                     }
                 }
                 return this.objects[objectClassName];
