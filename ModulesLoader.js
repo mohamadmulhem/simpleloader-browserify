@@ -1,5 +1,5 @@
 var ML = {
-    objects: []
+    objects: [],
     //get instance
     gI: function (objectClassName) {
             try {
