@@ -6,7 +6,7 @@ Lazy module loader which returns one object of modules that are needed to be ins
 
 ## Demo
 
-You reach demo through this [link](demo/index.html)
+You reach demo through this [link](https://rawcdn.githack.com/mohamadmulhem/simpleloader-browserify/45b01abfe5ceedfb674d3c137da120f4c67a100b/demo/index.html)
 
 
 
