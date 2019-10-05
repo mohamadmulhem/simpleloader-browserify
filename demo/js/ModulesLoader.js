@@ -10,11 +10,8 @@ var ML = {
                 {
                     switch (objectClassName)
                     {
-                        case 'SampleModule1':
-                            this.objects[objectClassName] = require('./SampleModule1.js');
-                            break;
-                        case 'SampleModule2':
-                            this.objects[objectClassName] = require('./SampleModule2.js');
+                        case 'SampleModule':
+                            this.objects[objectClassName] = require('./SampleModule.js');
                             break;
                     }
                 }
@@ -23,7 +20,6 @@ var ML = {
             } catch (err)
             {
                 throw new Error(err);
-                return;
             }
     }
 }
